@@ -1,0 +1,39 @@
+{% extends 'MovieRecommender/base.html' %}
+{% block title %}Login{% endblock title %}
+{% block css %}
+span {
+    padding:14px;
+    height:5px;
+    border-top-left-radius:20%;
+    border-top-right-radius:80%;
+    text-align: center;
+    background-color: #73c2dd;
+  }
+body{
+    background:url(https://i.pinimg.com/564x/03/d6/fa/03d6fae739dffa00f36705aa6d9bdfca.jpg);
+   }
+{% endblock css %}
+{% block content %}
+<div class="container p-5 mb-5">
+<form action="" method="post" novalidate>
+{% csrf_token %}
+{% if form.non_field_errors %}
+{% for error in form.non_field_errors %}
+<div class="alert alert-danger">{{error}}</div>
+{% endfor %}
+{% endif %} <br>
+{% for fm in  form %}
+<span class="text-light"><font face="Georgia" size="4" color="black" >{{fm.label_tag}}</font></span>
+<p>
+{{fm}}
+</p>
+{% if fm.errors  %}
+<div class="alert alert-danger">
+{{fm.errors|striptags}}
+</div>
+{% endif %}
+{% endfor %} <br>
+<input type="submit" value="Login" class="btn btn-primary"><br>
+</form>
+</div>
+{% endblock content %}

@@ -1,0 +1,40 @@
+{% extends 'MovieRecommender/base.html' %}
+{% block title %}Add Movie{% endblock title %}
+{% block css %}
+body
+{
+    background:url(https://i.pinimg.com/564x/03/d6/fa/03d6fae739dffa00f36705aa6d9bdfca.jpg);
+}
+span {
+  padding:14px;
+  height:5px;
+  border-top-left-radius:20%;
+  border-top-right-radius:80%;
+  text-align: center;
+  background-color: #73c2dd;
+}
+{% endblock css %}
+{%block content%}
+ {%if perms.MovieRecommender.add_movie%}
+<div class="container  mt-2 p-5 mb-2">
+<h1 class="text-center text-light">Add Movie</h1>  
+  <form action="" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {% for fm in form  %}
+        <span class="text-light font-weight-bold"><font face="Georgia" size="4" color="black" >{{fm.label_tag}}</font></span>
+        <p>{{fm}}</p>
+        {% endfor %}
+        <input type="submit" class="btn btn-primary" value="Add">
+        </form><br>
+        {% if messages %}
+        {%for msg in messages%}
+        {% if msg %}   <div class="alert alert-success">{{msg}}</div>{% endif %}
+        {%endfor%}
+        {% endif %}
+</form>
+</div>
+{% else %}
+<h1 class="text-light mt-2 ml-2">
+  <font face="Georgia" size="4" color="black" >Only Admin has Permission To Add Movie</font></h1>
+{% endif %}
+{%endblock content%} 
