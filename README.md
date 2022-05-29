@@ -8,13 +8,13 @@
 
 ### Technologies Used
 
-#### Web Technologies
+* **Web Technologies**
 HTML , CSS , JavaScript , Bootstrap , Django
 
-#### Machine Learning Library In Python3
+* **Machine Learning Library In Python3**
 Numpy , Pandas 
 
-#### Database
+* **Database**
 SQLite
 
 ##### Requirements
