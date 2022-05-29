@@ -19,10 +19,8 @@ SQLite
 
 ##### Requirements
 ```
-python >=3.6
-
-pip3
-
+* python >=3.6
+* pip3
 ```
 ##### Setup to run
 
@@ -46,18 +44,22 @@ pip install -r requirements.txt
 
 ### Creating Local Server
 
-Goto src directory, example
+* Go to the directory containing manage.py file, example
 
 ```
 cd /MOVIE4U/Movie-Recommendation/Movie-Recommendation/
 ```
-To run
+* To run
 ```
 python manage.py runserver
 ```
-Now open your browser and go to this address
+* Now open your browser and go to this address
 ```
 http://127.0.0.1:8000
 ```
-Thank you for visiting my repository.
+* Note:
+IDE: VSCode (preferred)
+Browsers: Microsoft Edge, Chrome (preferred)
+
+THANK YOU FOR VISTING :)
 
