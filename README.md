@@ -17,8 +17,8 @@ Numpy , Pandas
 * **Database:**
 SQLite (Default Database in Django)
    * Admin Credentials:
-    username: nandika
-    password: honey123
+       * username: nandika
+       * password: honey123
 
 ## Requirements
 * python >=3.6
