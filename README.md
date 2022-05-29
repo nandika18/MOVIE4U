@@ -6,23 +6,23 @@
 ## Home Page
 ![Alt text](./Screenshots/movie.JPG?raw=true "Home Page")
 
-### Technologies Used
+## Technologies Used
 
-* **Web Technologies**
+* **Web Technologies:**
 HTML , CSS , JavaScript , Bootstrap , Django
 
-* **Machine Learning Library In Python3**
+* **Python3 Libraries used:**
 Numpy , Pandas 
 
-* **Database**
-SQLite
+* **Database:**
+SQLite (Default Database in Django)
 
-##### Requirements
+## Requirements
 ```
 * python >=3.6
 * pip3
 ```
-##### Setup to run
+## Steps to run
 
 * Extract zip file in your computer
 
