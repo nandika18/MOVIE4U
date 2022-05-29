@@ -57,9 +57,9 @@ python manage.py runserver
 ```
 http://127.0.0.1:8000
 ```
-* Note:
-IDE: VSCode (preferred)
-Browsers: Microsoft Edge, Chrome (preferred)
+**Note**:
+* IDE: VSCode (preferred)
+* Browsers: Microsoft Edge, Chrome (preferred)
 
-THANK YOU FOR VISTING :)
+**THANK YOU FOR VISTING :)**
 
