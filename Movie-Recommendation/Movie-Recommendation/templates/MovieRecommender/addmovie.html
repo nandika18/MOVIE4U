@@ -13,6 +13,13 @@ span {
   text-align: center;
   background-color: #73c2dd;
 }
+h4 
+{
+  padding:10px;
+  flex: 1 1 auto;
+  text-align: center;
+  background-color: #73c2dd;
+}
 {% endblock css %}
 {%block content%}
  {%if perms.MovieRecommender.add_movie%}
@@ -34,7 +41,7 @@ span {
 </form>
 </div>
 {% else %}
-<h1 class="text-light mt-2 ml-2">
-  <font face="Georgia" size="4" color="black" >Only Admin has Permission To Add Movie</font></h1>
+<h4 class="text-light mt-2 ml-2">
+  <font face="Georgia" size="6" color="black" >Only Admin has Permission To Add Movie</font></h4>
 {% endif %}
 {%endblock content%} 
