@@ -18,10 +18,9 @@ Numpy , Pandas
 SQLite (Default Database in Django)
 
 ## Requirements
-```
 * python >=3.6
 * pip3
-```
+
 ## Steps to run
 
 * Extract zip file in your computer
