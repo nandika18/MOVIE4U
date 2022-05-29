@@ -5,3 +5,59 @@
 
 ## Home Page
 ![Alt text](./Screenshots/movie.JPG?raw=true "Home Page")
+
+### Technologies Used
+
+#### Web Technologies
+HTML , CSS , JavaScript , Bootstrap , Django
+
+#### Machine Learning Library In Python3
+Numpy , Pandas 
+
+#### Database
+SQLite
+
+##### Requirements
+```
+python >=3.6
+
+pip3
+
+```
+##### Setup to run
+
+* Extract zip file in your computer
+
+* Open terminal/cmd prompt
+
+* Goto that Path
+
+Example
+
+```
+cd ~/Destop/Movie-Recommender-System
+```
+
+* To install Dependencies
+
+```
+pip install -r requirements.txt
+```
+
+### Creating Local Server
+
+Goto src directory, example
+
+```
+cd /MOVIE4U/Movie-Recommendation/Movie-Recommendation/
+```
+To run
+```
+python manage.py runserver
+```
+Now open your browser and go to this address
+```
+http://127.0.0.1:8000
+```
+Thank you for visiting my repository.
+
